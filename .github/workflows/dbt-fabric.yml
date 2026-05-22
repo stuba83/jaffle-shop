@@ -42,7 +42,7 @@ jobs:
                 host: ${{ secrets.WAREHOUSE_HOST }}
                 port: 1433
                 database: ${{ secrets.WAREHOUSE_DB }}
-                schema: dbo
+                schema: raw
                 authentication: ServicePrincipal
                 tenant_id: ${{ secrets.AZURE_TENANT_ID }}
                 client_id: ${{ secrets.AZURE_CLIENT_ID }}
